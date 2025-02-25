@@ -1,0 +1,22 @@
+.top{
+    background-color: #222 !important;
+    color: white;
+    padding: 10px 0;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: right;
+    padding: 15px 50px;
+}nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+header{
+    background-image:url(e1f62861-d8a3-4493-a7ee-6e00baa0a0f9.jpeg) ;
+}
+h1{
+    text-align: center;
+}
