@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+        display: flex;
+        flex-direction: row;
+        max-width: 600px;
+        height: 100vh;
+        /* height: 700px; */
+        justify-content:center;
+        align-items: center;
+        /* text-align: center;  */
+        border:5px 0px 5px 0px;      
+}
+h2{
+    color: white;
+    font-size: 22px;
+    margin:30px 0;
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+}
+img{
+    margin-top: 20px;
+}
+.sedan{
+    background-color: rgb(212, 140, 5);
+    border-radius: 5px 0 0 5px;
+}
+.suv{
+    background-color: rgb(15, 122, 122);
+}
+.luxury{
+    background-color:rgb(1, 63, 78);
+    border-radius: 0 5px 5px 0;
+}
+.sedan-button {
+    color: rgb(212, 140, 5); 
+}
+
+.suv-button {
+    color: rgb(15, 122, 122); 
+}
+
+.luxury-button {
+    color: rgb(1, 63, 78); 
+}
+p{
+    font-size: 14px;
+    margin-bottom:30px;
+    line-height: 1.5;
+    color: white;
+}
+.button{
+    padding: 10px 15px;
+    border: 2px solid white;
+    background:white;
+    font-size: 14px;
+    text-decoration: none;
+    text-decoration-color: green;
+    border-radius:20px;
+}
+.card {
+    width: 180px;
+    padding: 20px;
+    color: white;
+    /* text-align: justify; */
+    transition: transform 0.3s ease-in-out;
+}
+@media screen and (max-width: 900px) {
+    .container {
+        flex-direction: column; 
+        /* align-items: center; */
+        margin-top: 250px;
+    }
+}
